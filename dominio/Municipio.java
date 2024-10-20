@@ -9,4 +9,11 @@ public class Municipio {
   public void agregarLocalidad(Localidad localidad) {
     localidades.add(localidad)
       }
+  public int contarHabitantes() {
+    int totalhabitantes = 0
+      for (Localidad localidad : localidades) {
+      totalhabitantes += localidad.getNumeroDeHabitantes();
+    }
+    return totalHabitantes;
+  }
 }

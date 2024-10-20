@@ -17,5 +17,5 @@ public class Municipio {
     return totalHabitantes;
   }
   public String toString(){
-    return "Localidad{" + "nombre= " + nombre + "\ " + ", Numero de Habitantes= " + numeroDeHanitantes + "}" ;
+    return "Municipio{" + "nombre= " + nombre + "\ " + ", Numero de Habitantes= " + numeroDeHanitantes + "}" ;
 }

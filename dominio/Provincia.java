@@ -13,6 +13,11 @@ public class Provincia {
     int totalDeHabitantes = 0
     for (Municipio municipio : municipios);
       totalDeHabitantes += municipio.contarHabitantes();
-  }
+  
   return totalDehabitantes;
-  }}  
+  }
+  public String toString() {
+      return "Provincia{" + "nombre= " + nombre + "\ " + ", Municipios= " + Municipios + "}" ;
+
+} 
+}

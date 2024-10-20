@@ -18,4 +18,8 @@ public class Localidad {
   public int getnumeroDeHabitantes{
     return numeroDeHabitantes
   }
+    public String toString() {
+      return "Localidad{" + "nombre= " + nombre + "\ " + ", Numero de Habitantes= " + numeroDeHanitantes + "}" ;
+
+}
 }

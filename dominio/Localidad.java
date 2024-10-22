@@ -4,22 +4,23 @@ public class Localidad {
 
   public Localidad(String nombre, int numeroDeHabitantes) {
     this.nombre = nombre;
-    this.numeroDeHabitantes = numeroDeHabitantes;
+    this.numeroDehabitantes = numeroDeHabitantes;
   }
   public void setNombre() {
     this.nombre = nombre;
   }
-  public Strig getNombre() {
+  public String getNombre() {
     return nombre;
   }
   public int setNumeroDeHabitantes{
-    this.numeroDeHabitantes = numeroDeHabitantes;
+    this.numeroDehabitantes = numeroDehabitantes;
   }
-  public int getnumeroDeHabitantes{
-    return numeroDeHabitantes
+  public int getNumeroDeHabitantes() {
+    return numeroDehabitantes;
   }
     public String toString() {
-      return "Localidad{" + "nombre= " + nombre + "\ " + ", Numero de Habitantes= " + numeroDeHanitantes + "}" ;
-
-}
+      StringBuilder sb = new StringBuilder ();
+      sb.append("Nombre: ").append(nombre).append("Numero de habitantes= ").append(numeroDehabitantes);
+      return sb.toString();
+    }
 }
